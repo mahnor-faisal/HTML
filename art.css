@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Header Section */
+header {
+  background: #6c63ff;
+  color: white;
+  padding: 40px 20px;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav {
+  background: #333;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+nav ul li a:hover {
+  color: #6c63ff;
+  border-bottom: 2px solid #6c63ff;
+}
+
+/* Gallery Section */
+#gallery {
+  padding: 40px 20px;
+}
+#gallery h2 {
+  font-size: 2rem;
+  color: #6c63ff;
+  margin-bottom: 20px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.art-box {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.art-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
+}
+
+/* CTA Section */
+.cta {
+  background: #6c63ff;
+  color: white;
+  padding: 40px 20px;
+}
+.cta h2 {
+  margin-bottom: 10px;
+}
+.cta button {
+  background: white;
+  color: #6c63ff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+.cta button:hover {
+  background: #f1f1f1;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 15px;
+  font-size: 0.9rem;
+}
