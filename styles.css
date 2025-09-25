@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+    .container{
+    width: 250px;
+    display: inline-block;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 20px;
+    padding:10px;
+    border-radius: 10px; 
+    text-align: center;
+    /* margin-left: 250px; */
+}
+button{
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+#p1{
+padding-bottom: 20px;
+}
+#p2{
+    display: inline;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+
+}
