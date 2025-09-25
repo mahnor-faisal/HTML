@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    background-color: #f9f9f9; 
+
 }
 .nav {
   background-color: blue;
@@ -11,7 +13,8 @@ body{
 }
 
 a{
-    color: white; text-decoration: none;
+    color: white; 
+    text-decoration: none;
 }
 .nav .left {
   font-weight: bold;
@@ -22,3 +25,134 @@ a{
   text-decoration: none;
   margin-left: 30px; 
 }
+
+.container{
+    width: 255px;
+    border: 1px solid gray;
+    padding:10px;
+    margin: 40px;
+    border-radius: 8px; 
+    text-align: center;
+    height: 110px;
+    background-color: dimgray;
+    color: white;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.conPar{
+  margin-top: 10px;
+  margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color:yellow;
+    border-radius: 5px;
+    color: black;
+    padding: 8px;
+    border: yellow;
+    font-weight: bold;
+}
+
+.para2{
+font-size: 11px
+}
+
+.services-heading {
+  text-align: center;     /* heading ko center karega */
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;    /* heading aur cards ke beech gap */
+  color: #007bff;            /* dark grey */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+
+.parent{
+   display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+.parent img{
+  width: 100%;
+  height: 200px;      /* sab ke liye same height */
+  object-fit: cover;  /* stretch nahi hoga, crop ho jaega */
+  border-radius: 10px 10px 0 0;
+}
+
+.container1{
+    background-color: #ffffff;   /* white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 6px rgba(0,0,0,0.1);
+  }
+
+  h5{
+    text-align: center;
+  }
+
+.price{
+  color: #007bff;
+  font-weight: bold;
+  text-align: center;
+}
+
+  
+  /* Main Footer Area */
+.footer {
+  background-color: #e6f7fb;  
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Cards Container */
+.footer-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Testimonial Cards */
+.footer-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.footer-content img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-bottom a {
+  color: gold;
+  text-decoration: none;
+  margin: 8px;
+  font-weight: bold;
+}
+
