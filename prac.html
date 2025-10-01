@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyProfile</title>
+    <link rel="stylesheet" href="prac.css">
+  </head>
+  <body>
+    <!-- Sticky Header -->
+    <header>MyProfile</header>
+    <div class="task-box-parent">
+      <!-- Task Box -->
+      <div class="task-box">
+        <h2>Your Task!</h2>
+        <p>
+          Explore this page to see different CSS position properties in action.
+          Check the comments in the CSS file to understand how each one works!
+        </p>
+      </div>
+    </div>
+
+    <!-- Profile Card with Relative + Absolute -->
+    <div class="profile-card">
+      <img src="https://i.pravatar.cc/100" alt="Profile Picture" />
+      <div class="notification-badge">3</div>
+      <h3>Umar Asghar</h3>
+      <p>Frontend Developer</p>
+      <button class="btn">Show Details</button>
+    </div>
+
+    <!-- Static Content -->
+    <div class="content">
+      <h2>Demonstrating Positions</h2>
+      <p>
+        This section is here to create enough content to make the page
+        scrollable. As you scroll down, notice a few things:
+      </p>
+      <p>
+        <b>The header</b> at the very top has <b>position: sticky</b>. It
+        scrolls with the content until it hits the top of the viewport, where it
+        "sticks" in place.
+      </p>
+      <p>
+        <b>The profile card</b> above has <b>position: relative</b>. By itself,
+        this doesn’t do much, but it creates a positioning context for its child
+        elements.
+      </p>
+      <p>
+        The
+        <span style="color: red; font-weight: bold">notification badge</span>
+        has <b>position: absolute</b>, which positions it relative to the
+        boundaries of the profile card, its nearest "positioned" ancestor.
+      </p>
+      <p>
+        Meanwhile, this section of text is using the default
+        <b>position: static</b>, meaning it just flows naturally as part of the
+        page layout.
+      </p>
+      <p>Scroll down more to see the help button remain fixed.</p>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <p>More filler content... keep scrolling...</p>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+
+    <!-- Fixed Help Button -->
+    <div class="help-btn">?</div>
+  </body>
+</html>

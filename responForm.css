@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-container {
+    border-top: 5px solid yellow;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px gray;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative; /* relative parent */
+  margin-bottom: 15px;
+}
+
+.input-box i {
+  position: absolute; /* absolute child inside input */
+  top: 0;               /* parent ke top se chipka */
+  bottom: 0;            /* parent ke bottom se chipka */
+  margin: auto 0;       /* beech me le aaya */
+  height: 16px;         /* icon ki fixed height */
+  color: black;
+  padding-left: 6px;
+}
+
+.input-box input, 
+.input-box select {
+  width: 100%;
+  padding: 10px 10px 10px 35px; 
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.flex-row {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-row .input-box {
+  /* flex: 1; */
+   width: 50%; 
+}
+
+/* Gender */
+.gender {
+  margin: 10px 0;
+  display: flex;
+  gap: 15px;
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: yellow;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer span {
+  color: orange;
+  font-weight: bold;
+}

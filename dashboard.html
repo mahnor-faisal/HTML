@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <!--  Header -->
+  <header class="header">
+    <div class="logo">Dashboard</div>
+    <div class="header-right">
+      <span>Welcome, Admin</span>
+      <button class="logout-btn">Logout</button>
+    </div>
+  </header>
+
+  <!-- Wrapper (Sidebar + Main Content) -->
+  <div class="dashboard">
+    <!--  Sidebar -->
+    <aside class="sidebar">
+      <button>Dashboard</button>
+      <button>Analytics</button>
+      <button>Settings</button>
+      <button>Profile</button>
+    </aside>
+
+    <!--  Main Content -->
+    <main class="main-content">
+      
+      <!--  Top Stats Cards -->
+      <div class="stats">
+        <div class="card">
+          <p>Total Users</p>
+          <h3>1200</h3>
+        </div>
+        <div class="card">
+          <p>Revenue</p>
+          <h3>$15,000</h3>
+        </div>
+        <div class="card">
+          <p>Orders</p>
+          <h3>350</h3>
+        </div>
+        <div class="card">
+          <p>Feedback</p>
+          <h3>98%</h3>
+        </div>
+      </div>
+
+      <!-- Monthly Sales -->
+      <div class="chart-box">
+        <h2>Monthly Sales</h2>
+        <div class="chart-placeholder">[Chart Placeholder]</div>
+      </div>
+
+      <!-- Recent Orders Table -->
+      <div class="recent-orders">
+        <h2>Recent Orders</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Order ID</th>
+              <th>Customer</th>
+              <th>Status</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#001</td>
+              <td>John Doe</td>
+              <td>Completed</td>
+              <td>$200</td>
+            </tr>
+            <tr>
+              <td>#002</td>
+              <td>Jane Smith</td>
+              <td>Pending</td>
+              <td>$350</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </main>
+  </div>
+
+  <!--  Footer -->
+  <footer>
+    & copy 2025 Admin Dashboard. All rights reserved.
+  </footer>
+
+</body>
+</html>
