@@ -34,11 +34,11 @@ body {
 }
 
 .input-box i {
-  position: absolute; /* absolute child inside input */
-  top: 0;               /* parent ke top se chipka */
-  bottom: 0;            /* parent ke bottom se chipka */
-  margin: auto 0;       /* beech me le aaya */
-  height: 16px;         /* icon ki fixed height */
+  position: absolute; 
+  top: 0;               
+  bottom: 0;            
+  margin: auto 0;       
+  height: 16px;        
   color: black;
   padding-left: 6px;
 }
